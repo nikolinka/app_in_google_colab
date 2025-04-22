@@ -1,0 +1,19 @@
+CREATE TABLE trip (
+  id INTEGER PRIMARY KEY AUTOINCREMENT, 
+  plane varchar, 
+  town_to text, 
+  town_from text)
+
+
+CREATE TABLE passenger (
+  id INTEGER PRIMARY KEY AUTOINCREMENT, 
+  name text, 
+  surname varchar, 
+  weight_luggage float)
+
+CREATE TABLE ticket (
+  id INTEGER PRIMARY KEY AUTOINCREMENT, 
+  gate varchar, 
+  row text, 
+  place text, 
+  date date)
